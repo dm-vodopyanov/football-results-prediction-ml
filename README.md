@@ -10,7 +10,7 @@ In this mini-project we try to use some machine learning methods to predict outc
   - Random Forest
   - etc.
 
-Dataset that used in our project is [here](http://www.football-data.co.uk/englandm.php).
+The dataset that used in our project is [here](http://www.football-data.co.uk/englandm.php).
 
 ### Literature
   - A. Yezus. Predicting outcome of soccer matches using machine learning ([pdf](http://www.math.spbu.ru/SD_AIS/documents/2014-12-341/2014-12-tw-15.pdf))
