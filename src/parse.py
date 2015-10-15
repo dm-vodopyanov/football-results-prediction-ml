@@ -16,9 +16,6 @@ def takeCSV(dir):
 def parseCSV(path):
 	print path + " was parsed"
 
-def main():
-    takeCSV(dir)
-
 if __name__ == '__main__':
-    main()
+    takeCSV(dir) 
 
