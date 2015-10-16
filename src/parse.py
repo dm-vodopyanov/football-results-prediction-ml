@@ -13,6 +13,7 @@ import os
 import csv
 
 dir = "..\\datasets"
+resDir = "..\\result"
 teamName = ""
 teamsStat = []
 matchesNumber = 0
@@ -43,15 +44,22 @@ def parseCSV(path, teamName, matchesNumber):
             isTeamHome = rec[2] == teamName
             isTeamAway = rec[3] == teamName
             if isTeamHome:
-                teamsStat.append([rec[2],rec[3],rec[4],rec[5],isTeamHome])
+                teamsStat.append([rec[2],rec[3],rec[4],rec[5],str(isTeamHome)])
             elif isTeamAway:
-                teamsStat.append([rec[3],rec[2],rec[5],rec[4],isTeamHome])
+                teamsStat.append([rec[3],rec[2],rec[5],rec[4],str(isTeamHome)])
             #TODO: Add another info about teams
         except:
             pass
     inputFile.close()
 
+def saveResults(results):
+    resFile = open(resDir + "\\result.txt", 'w')
+    for result in results:
+        resFile.write(';'.join(result) + '\n')
+    resFile.close()
+
 if __name__ == '__main__':
     getInfo(teamName, matchesNumber)
     for team in teamsStat:
         print team
+    saveResults(teamsStat)
