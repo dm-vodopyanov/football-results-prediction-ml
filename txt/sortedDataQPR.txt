@@ -1,41 +1,41 @@
-QPR;Bolton;0;4;30;5;True
-QPR;Everton;1;0;30;4;False
+QPR;Bolton;0;4;30;51;True
+QPR;Everton;1;0;30;47;False
 QPR;Wigan;0;2;30;39;False
-QPR;Newcastle;0;0;30;3;True
-QPR;Wolves;3;0;30;7;False
-QPR;Aston Villa;1;1;30;3;True
-QPR;Fulham;0;6;30;5;False
-QPR;Blackburn;1;1;30;6;True
-QPR;Chelsea;1;0;30;8;True
+QPR;Newcastle;0;0;30;39;True
+QPR;Wolves;3;0;30;78;False
+QPR;Aston Villa;1;1;30;38;True
+QPR;Fulham;0;6;30;52;False
+QPR;Blackburn;1;1;30;67;True
+QPR;Chelsea;1;0;30;87;True
 QPR;Tottenham;1;3;30;64;False
-QPR;Man City;2;3;30;7;True
+QPR;Man City;2;3;30;79;True
 QPR;Stoke;3;2;30;54;False
-QPR;Norwich;1;2;30;8;False
+QPR;Norwich;1;2;30;86;False
 QPR;West Brom;1;1;30;44;True
-QPR;Liverpool;0;1;30;6;False
-QPR;Man United;0;2;30;7;True
+QPR;Liverpool;0;1;30;62;False
+QPR;Man United;0;2;30;70;True
 QPR;Sunderland;2;3;30;38;True
 QPR;Swansea;1;1;30;56;False
-QPR;Arsenal;0;1;30;7;False
-QPR;Norwich;1;2;30;8;True
-QPR;Newcastle;0;1;30;3;False
+QPR;Arsenal;0;1;30;75;False
+QPR;Norwich;1;2;30;86;True
+QPR;Newcastle;0;1;30;39;False
 QPR;Wigan;3;1;30;39;True
-QPR;Aston Villa;2;2;30;3;False
-QPR;Wolves;1;2;30;7;True
-QPR;Blackburn;2;3;30;6;False
-QPR;Fulham;0;1;30;5;True
-QPR;Everton;1;1;30;4;True
-QPR;Bolton;1;2;30;5;False
-QPR;Liverpool;3;2;30;6;True
+QPR;Aston Villa;2;2;30;38;False
+QPR;Wolves;1;2;30;78;True
+QPR;Blackburn;2;3;30;67;False
+QPR;Fulham;0;1;30;52;True
+QPR;Everton;1;1;30;47;True
+QPR;Bolton;1;2;30;51;False
+QPR;Liverpool;3;2;30;62;True
 QPR;Sunderland;1;3;30;38;False
-QPR;Arsenal;2;1;30;7;True
-QPR;Man United;0;2;30;7;False
+QPR;Arsenal;2;1;30;75;True
+QPR;Man United;0;2;30;70;False
 QPR;Swansea;3;0;30;56;True
 QPR;West Brom;0;1;30;44;False
 QPR;Tottenham;1;0;30;64;True
-QPR;Chelsea;1;6;30;8;False
+QPR;Chelsea;1;6;30;87;False
 QPR;Stoke;1;0;30;54;True
-QPR;Man City;2;3;30;7;False
+QPR;Man City;2;3;30;79;False
 QPR;Swansea;0;5;30;56;True
-QPR;Norwich;1;1;30;8;False
-QPR;Man City;1;3;30;7;False
+QPR;Norwich;1;1;30;86;False
+QPR;Man City;1;3;30;79;False

@@ -1,41 +1,41 @@
 Leicester;Southampton;2;2;41;60;True
-Leicester;Chelsea;1;2;41;8;False
+Leicester;Chelsea;1;2;41;87;False
 Leicester;Middlesbrough;0;0;41;85;True
-Leicester;Aston Villa;1;3;41;3;False
-Leicester;Leeds;4;0;41;5;True
+Leicester;Aston Villa;1;3;41;38;False
+Leicester;Leeds;4;0;41;56;True
 Leicester;Liverpool;1;2;41;62;False
 Leicester;Man United;1;4;41;70;True
-Leicester;Fulham;0;2;41;5;False
+Leicester;Fulham;0;2;41;52;False
 Leicester;Tottenham;1;2;41;64;True
-Leicester;Wolves;3;4;41;7;False
-Leicester;Blackburn;2;0;41;6;True
+Leicester;Wolves;3;4;41;78;False
+Leicester;Blackburn;2;0;41;67;True
 Leicester;Man City;3;0;41;79;False
-Leicester;Charlton;1;1;41;6;True
+Leicester;Charlton;1;1;41;60;True
 Leicester;Portsmouth;2;0;41;72;False
-Leicester;Arsenal;1;1;41;7;True
-Leicester;Birmingham;0;2;41;6;True
-Leicester;Everton;2;3;41;4;False
+Leicester;Arsenal;1;1;41;75;True
+Leicester;Birmingham;0;2;41;63;True
+Leicester;Everton;2;3;41;47;False
 Leicester;Newcastle;1;1;41;39;True
-Leicester;Bolton;2;2;41;5;False
+Leicester;Bolton;2;2;41;51;False
 Leicester;Southampton;0;0;41;60;False
-Leicester;Chelsea;0;4;41;8;True
+Leicester;Chelsea;0;4;41;87;True
 Leicester;Middlesbrough;3;3;41;85;False
-Leicester;Aston Villa;0;5;41;3;True
+Leicester;Aston Villa;0;5;41;38;True
 Leicester;Newcastle;1;3;41;39;False
-Leicester;Bolton;1;1;41;5;True
+Leicester;Bolton;1;1;41;51;True
 Leicester;Tottenham;4;4;41;64;False
-Leicester;Wolves;0;0;41;7;True
-Leicester;Birmingham;1;0;41;6;False
-Leicester;Everton;1;1;41;4;True
+Leicester;Wolves;0;0;41;78;True
+Leicester;Birmingham;1;0;41;63;False
+Leicester;Everton;1;1;41;47;True
 Leicester;Liverpool;0;0;41;62;True
-Leicester;Leeds;2;3;41;5;False
-Leicester;Fulham;0;2;41;5;True
+Leicester;Leeds;2;3;41;56;False
+Leicester;Fulham;0;2;41;52;True
 Leicester;Man United;0;1;41;70;False
-Leicester;Blackburn;0;1;41;6;False
+Leicester;Blackburn;0;1;41;67;False
 Leicester;Man City;1;1;41;79;True
-Leicester;Charlton;2;2;41;6;False
+Leicester;Charlton;2;2;41;60;False
 Leicester;Portsmouth;3;1;41;72;True
-Leicester;Arsenal;1;2;41;7;False
-Leicester;Everton;2;2;41;4;True
-Leicester;Chelsea;0;2;41;8;False
-Leicester;Arsenal;1;1;41;7;True
+Leicester;Arsenal;1;2;41;75;False
+Leicester;Everton;2;2;41;47;True
+Leicester;Chelsea;0;2;41;87;False
+Leicester;Arsenal;1;1;41;75;True

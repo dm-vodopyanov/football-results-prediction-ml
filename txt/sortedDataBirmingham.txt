@@ -6,11 +6,11 @@ Birmingham;Leeds;2;0;63;56;False
 Birmingham;Portsmouth;2;0;63;72;True
 Birmingham;Man United;0;3;63;70;False
 Birmingham;Chelsea;0;0;63;87;True
-Birmingham;Aston Villa;0;0;63;3;True
+Birmingham;Aston Villa;0;0;63;38;True
 Birmingham;Bolton;1;0;63;51;False
 Birmingham;Charlton;1;2;63;60;True
-Birmingham;Wolves;1;1;63;7;False
-Birmingham;Arsenal;0;3;63;7;True
+Birmingham;Wolves;1;1;63;78;False
+Birmingham;Arsenal;0;3;63;75;True
 Birmingham;Liverpool;1;3;63;62;False
 Birmingham;Blackburn;0;4;63;67;True
 Birmingham;Leicester;2;0;63;41;False
@@ -22,7 +22,7 @@ Birmingham;Chelsea;0;0;63;87;False
 Birmingham;Newcastle;1;1;63;39;True
 Birmingham;Man City;0;0;63;79;False
 Birmingham;Everton;3;0;63;47;True
-Birmingham;Aston Villa;2;2;63;3;False
+Birmingham;Aston Villa;2;2;63;38;False
 Birmingham;Middlesbrough;3;1;63;85;True
 Birmingham;Bolton;2;0;63;51;True
 Birmingham;Leicester;0;1;63;41;True
@@ -32,8 +32,8 @@ Birmingham;Fulham;0;0;63;52;False
 Birmingham;Man United;1;2;63;70;True
 Birmingham;Portsmouth;1;3;63;72;False
 Birmingham;Charlton;1;1;63;60;False
-Birmingham;Wolves;2;2;63;7;True
-Birmingham;Arsenal;0;0;63;7;False
+Birmingham;Wolves;2;2;63;78;True
+Birmingham;Arsenal;0;0;63;75;False
 Birmingham;Liverpool;0;3;63;62;True
 Birmingham;Blackburn;1;1;63;67;False
 Birmingham;Portsmouth;1;1;63;72;False

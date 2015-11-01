@@ -1,41 +1,41 @@
 Chelsea;Liverpool;2;1;87;62;False
 Chelsea;Leicester;2;1;87;41;True
-Chelsea;Blackburn;2;2;87;6;True
+Chelsea;Blackburn;2;2;87;67;True
 Chelsea;Tottenham;4;2;87;64;True
-Chelsea;Wolves;5;0;87;7;False
-Chelsea;Aston Villa;1;0;87;3;True
+Chelsea;Wolves;5;0;87;78;False
+Chelsea;Aston Villa;1;0;87;38;True
 Chelsea;Middlesbrough;2;1;87;85;False
-Chelsea;Birmingham;0;0;87;6;False
-Chelsea;Arsenal;1;2;87;7;False
+Chelsea;Birmingham;0;0;87;63;False
+Chelsea;Arsenal;1;2;87;75;False
 Chelsea;Man City;1;0;87;79;True
 Chelsea;Everton;1;0;87;47;False
 Chelsea;Newcastle;5;0;87;39;True
 Chelsea;Southampton;1;0;87;60;False
 Chelsea;Man United;1;0;87;70;True
 Chelsea;Leeds;1;1;87;56;False
-Chelsea;Bolton;1;2;87;5;True
+Chelsea;Bolton;1;2;87;51;True
 Chelsea;Fulham;1;0;87;52;False
-Chelsea;Charlton;2;4;87;6;False
+Chelsea;Charlton;2;4;87;60;False
 Chelsea;Portsmouth;3;0;87;72;True
 Chelsea;Liverpool;0;1;87;62;True
 Chelsea;Leicester;4;0;87;41;False
-Chelsea;Birmingham;0;0;87;6;True
-Chelsea;Blackburn;3;2;87;6;False
-Chelsea;Charlton;1;0;87;6;True
+Chelsea;Birmingham;0;0;87;63;True
+Chelsea;Blackburn;3;2;87;67;False
+Chelsea;Charlton;1;0;87;60;True
 Chelsea;Portsmouth;2;0;87;72;False
-Chelsea;Arsenal;1;2;87;7;True
+Chelsea;Arsenal;1;2;87;75;True
 Chelsea;Man City;1;0;87;79;False
-Chelsea;Bolton;2;0;87;5;False
+Chelsea;Bolton;2;0;87;51;False
 Chelsea;Fulham;2;1;87;52;True
-Chelsea;Wolves;5;2;87;7;True
+Chelsea;Wolves;5;2;87;78;True
 Chelsea;Tottenham;1;0;87;64;False
 Chelsea;Middlesbrough;0;0;87;85;True
-Chelsea;Aston Villa;2;3;87;3;False
+Chelsea;Aston Villa;2;3;87;38;False
 Chelsea;Everton;0;0;87;47;True
 Chelsea;Newcastle;1;2;87;39;False
 Chelsea;Southampton;4;0;87;60;True
 Chelsea;Man United;1;1;87;70;False
 Chelsea;Leeds;1;0;87;56;True
 Chelsea;Man United;1;0;87;70;True
-Chelsea;Birmingham;1;0;87;6;False
+Chelsea;Birmingham;1;0;87;63;False
 Chelsea;Crystal Palace;2;0;87;48;False

@@ -62,13 +62,15 @@ def parseCSV(path, teamName, teamSignificance, matchesNumber):
                     if isTeamAway:
                         if (team[0] == rec[2]):
                             opponentTeamSignificance = team[1] 
-                opponentTeamSignificance = opponentTeamSignificance[:opponentTeamSignificance.find("\n")]
+                if opponentTeamSignificance.endswith("\n"):
+                    opponentTeamSignificance = opponentTeamSignificance[
+                                                            :opponentTeamSignificance.find("\n")]
                 if isTeamHome:
                     teamsStat.append([rec[2], rec[3], rec[4], rec[5], 
-                                      teamSignificance, opponentTeamSignificance, str(isTeamHome)])
+                                     teamSignificance, opponentTeamSignificance, str(isTeamHome)])
                 elif isTeamAway:
                     teamsStat.append([rec[3], rec[2], rec[5], rec[4],
-                                      teamSignificance, opponentTeamSignificance, str(isTeamHome)])
+                                     teamSignificance, opponentTeamSignificance, str(isTeamHome)])
         except:
             pass
     inputFile.close()

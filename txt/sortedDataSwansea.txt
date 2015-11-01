@@ -1,41 +1,41 @@
-Swansea;Man City;0;4;56;7;False
+Swansea;Man City;0;4;56;79;False
 Swansea;Wigan;0;0;56;39;True
-Swansea;Sunderland;0;0;56;3;True
-Swansea;Arsenal;0;1;56;7;False
+Swansea;Sunderland;0;0;56;38;True
+Swansea;Arsenal;0;1;56;75;False
 Swansea;West Brom;3;0;56;44;True
-Swansea;Chelsea;1;4;56;8;False
-Swansea;Stoke;2;0;56;5;True
-Swansea;Norwich;1;3;56;8;False
-Swansea;Wolves;2;2;56;7;False
-Swansea;Bolton;3;1;56;5;True
-Swansea;Liverpool;0;0;56;6;False
-Swansea;Man United;0;1;56;7;True
-Swansea;Aston Villa;0;0;56;3;True
-Swansea;Blackburn;2;4;56;6;False
-Swansea;Fulham;2;0;56;5;True
-Swansea;Newcastle;0;0;56;3;False
-Swansea;Everton;0;1;56;4;False
-Swansea;QPR;1;1;56;3;True
+Swansea;Chelsea;1;4;56;87;False
+Swansea;Stoke;2;0;56;54;True
+Swansea;Norwich;1;3;56;86;False
+Swansea;Wolves;2;2;56;78;False
+Swansea;Bolton;3;1;56;51;True
+Swansea;Liverpool;0;0;56;62;False
+Swansea;Man United;0;1;56;70;True
+Swansea;Aston Villa;0;0;56;38;True
+Swansea;Blackburn;2;4;56;67;False
+Swansea;Fulham;2;0;56;52;True
+Swansea;Newcastle;0;0;56;39;False
+Swansea;Everton;0;1;56;47;False
+Swansea;QPR;1;1;56;30;True
 Swansea;Tottenham;1;1;56;64;True
-Swansea;Aston Villa;2;0;56;3;False
-Swansea;Arsenal;3;2;56;7;True
-Swansea;Sunderland;0;2;56;3;False
-Swansea;Chelsea;1;1;56;8;True
+Swansea;Aston Villa;2;0;56;38;False
+Swansea;Arsenal;3;2;56;75;True
+Swansea;Sunderland;0;2;56;38;False
+Swansea;Chelsea;1;1;56;87;True
 Swansea;West Brom;2;1;56;44;False
-Swansea;Norwich;2;3;56;8;True
-Swansea;Stoke;0;2;56;5;False
+Swansea;Norwich;2;3;56;86;True
+Swansea;Stoke;0;2;56;54;False
 Swansea;Wigan;2;0;56;39;False
-Swansea;Man City;1;0;56;7;True
-Swansea;Fulham;3;0;56;5;False
-Swansea;Everton;0;2;56;4;True
+Swansea;Man City;1;0;56;79;True
+Swansea;Fulham;3;0;56;52;False
+Swansea;Everton;0;2;56;47;True
 Swansea;Tottenham;1;3;56;64;False
-Swansea;Newcastle;0;2;56;3;True
-Swansea;QPR;0;3;56;3;False
-Swansea;Blackburn;3;0;56;6;True
-Swansea;Bolton;1;1;56;5;False
-Swansea;Wolves;4;4;56;7;True
-Swansea;Man United;0;2;56;7;False
-Swansea;Liverpool;1;0;56;6;True
-Swansea;QPR;5;0;56;3;False
+Swansea;Newcastle;0;2;56;39;True
+Swansea;QPR;0;3;56;30;False
+Swansea;Blackburn;3;0;56;67;True
+Swansea;Bolton;1;1;56;51;False
+Swansea;Wolves;4;4;56;78;True
+Swansea;Man United;0;2;56;70;False
+Swansea;Liverpool;1;0;56;62;True
+Swansea;QPR;5;0;56;30;False
 Swansea;West Ham;3;0;56;47;True
-Swansea;Sunderland;2;2;56;3;True
+Swansea;Sunderland;2;2;56;38;True

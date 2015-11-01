@@ -1,6 +1,6 @@
 Aston Villa;Portsmouth;1;2;38;72;False
 Aston Villa;Liverpool;0;0;38;62;True
-Aston Villa;Arsenal;0;2;38;7;False
+Aston Villa;Arsenal;0;2;38;75;False
 Aston Villa;Leicester;3;1;38;41;True
 Aston Villa;Man City;1;4;38;79;False
 Aston Villa;Charlton;2;1;38;60;True
@@ -13,19 +13,19 @@ Aston Villa;Middlesbrough;0;2;38;85;True
 Aston Villa;Tottenham;1;2;38;64;False
 Aston Villa;Southampton;1;0;38;60;True
 Aston Villa;Man United;0;4;38;70;False
-Aston Villa;Wolves;3;2;38;7;True
+Aston Villa;Wolves;3;2;38;78;True
 Aston Villa;Blackburn;2;0;38;67;False
 Aston Villa;Leeds;0;0;38;56;False
 Aston Villa;Fulham;3;0;38;52;True
 Aston Villa;Portsmouth;2;1;38;72;True
 Aston Villa;Liverpool;0;1;38;62;False
-Aston Villa;Arsenal;0;2;38;7;True
+Aston Villa;Arsenal;0;2;38;75;True
 Aston Villa;Leicester;5;0;38;41;False
 Aston Villa;Leeds;2;0;38;56;True
 Aston Villa;Fulham;2;1;38;52;False
 Aston Villa;Birmingham;2;2;38;63;True
 Aston Villa;Everton;0;2;38;47;False
-Aston Villa;Wolves;4;0;38;7;False
+Aston Villa;Wolves;4;0;38;78;False
 Aston Villa;Blackburn;0;2;38;67;True
 Aston Villa;Charlton;2;1;38;60;False
 Aston Villa;Man City;1;1;38;79;True

@@ -1,41 +1,41 @@
-Man United;Bolton;4;0;70;5;True
+Man United;Bolton;4;0;70;51;True
 Man United;Newcastle;2;1;70;39;False
-Man United;Wolves;1;0;70;7;True
+Man United;Wolves;1;0;70;78;True
 Man United;Southampton;0;1;70;60;False
-Man United;Charlton;2;0;70;6;False
-Man United;Arsenal;0;0;70;7;True
-Man United;Leicester;4;1;70;4;False
-Man United;Birmingham;3;0;70;6;True
-Man United;Leeds;1;0;70;5;False
-Man United;Fulham;1;3;70;5;True
+Man United;Charlton;2;0;70;60;False
+Man United;Arsenal;0;0;70;75;True
+Man United;Leicester;4;1;70;41;False
+Man United;Birmingham;3;0;70;63;True
+Man United;Leeds;1;0;70;56;False
+Man United;Fulham;1;3;70;52;True
 Man United;Portsmouth;3;0;70;72;True
-Man United;Liverpool;2;1;70;6;False
-Man United;Blackburn;2;1;70;6;True
-Man United;Chelsea;0;1;70;8;False
-Man United;Aston Villa;4;0;70;3;True
-Man United;Man City;3;1;70;7;True
+Man United;Liverpool;2;1;70;62;False
+Man United;Blackburn;2;1;70;67;True
+Man United;Chelsea;0;1;70;87;False
+Man United;Aston Villa;4;0;70;38;True
+Man United;Man City;3;1;70;79;True
 Man United;Tottenham;2;1;70;64;False
-Man United;Everton;3;2;70;4;True
+Man United;Everton;3;2;70;47;True
 Man United;Middlesbrough;1;0;70;85;False
-Man United;Bolton;2;1;70;5;False
+Man United;Bolton;2;1;70;51;False
 Man United;Newcastle;0;0;70;39;True
-Man United;Wolves;0;1;70;7;False
+Man United;Wolves;0;1;70;78;False
 Man United;Southampton;3;2;70;60;True
-Man United;Everton;4;3;70;4;False
+Man United;Everton;4;3;70;47;False
 Man United;Middlesbrough;2;3;70;85;True
-Man United;Leeds;1;1;70;5;True
-Man United;Fulham;1;1;70;5;False
-Man United;Man City;1;4;70;7;False
+Man United;Leeds;1;1;70;56;True
+Man United;Fulham;1;1;70;52;False
+Man United;Man City;1;4;70;79;False
 Man United;Tottenham;3;0;70;64;True
-Man United;Arsenal;1;1;70;7;False
-Man United;Birmingham;2;1;70;6;False
-Man United;Leicester;1;0;70;4;True
+Man United;Arsenal;1;1;70;75;False
+Man United;Birmingham;2;1;70;63;False
+Man United;Leicester;1;0;70;41;True
 Man United;Portsmouth;0;1;70;72;False
-Man United;Charlton;2;0;70;6;True
-Man United;Liverpool;0;1;70;6;True
-Man United;Blackburn;0;1;70;6;False
-Man United;Chelsea;1;1;70;8;True
-Man United;Aston Villa;2;0;70;3;False
-Man United;Chelsea;0;1;70;8;False
+Man United;Charlton;2;0;70;60;True
+Man United;Liverpool;0;1;70;62;True
+Man United;Blackburn;0;1;70;67;False
+Man United;Chelsea;1;1;70;87;True
+Man United;Aston Villa;2;0;70;38;False
+Man United;Chelsea;0;1;70;87;False
 Man United;Norwich;2;1;70;86;True
-Man United;Blackburn;1;1;70;6;False
+Man United;Blackburn;1;1;70;67;False
