@@ -1,0 +1,38 @@
+Arsenal,75
+Aston Villa,38
+Birmingham,63
+Blackburn,67
+Blackpool,26
+Bolton,51
+Bournemouth,80
+Burnley,33
+Cardiff,62
+Charlton,60
+Chelsea,87
+Crystal Palace,48
+Derby,77
+Everton,47
+Fulham,52
+Hull,35
+Leeds,56
+Leicester,41
+Liverpool,62
+Man City,79
+Man United,70
+Middlesbrough,85
+Newcastle,39
+Norwich,86
+Portsmouth,72
+QPR,30
+Reading,50
+Sheffield United,60
+Southampton,60
+Stoke,54
+Sunderland,38
+Swansea,56
+Tottenham,64
+Watford,69
+West Brom,44
+West Ham,47
+Wigan,39
+Wolves,78

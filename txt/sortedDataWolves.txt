@@ -1,0 +1,41 @@
+Wolves;Blackburn;1;5;78;6;False
+Wolves;Charlton;0;4;78;6;True
+Wolves;Man United;0;1;78;7;False
+Wolves;Portsmouth;0;0;78;7;True
+Wolves;Southampton;0;2;78;6;False
+Wolves;Chelsea;0;5;78;8;True
+Wolves;Bolton;1;1;78;5;False
+Wolves;Man City;1;0;78;7;True
+Wolves;Fulham;0;0;78;5;False
+Wolves;Leicester;4;3;78;4;True
+Wolves;Middlesbrough;0;2;78;8;False
+Wolves;Birmingham;1;1;78;6;True
+Wolves;Everton;0;2;78;4;False
+Wolves;Newcastle;1;1;78;3;True
+Wolves;Tottenham;2;5;78;6;False
+Wolves;Aston Villa;2;3;78;3;False
+Wolves;Arsenal;0;3;78;7;False
+Wolves;Leeds;3;1;78;5;True
+Wolves;Blackburn;2;2;78;6;True
+Wolves;Charlton;0;2;78;6;False
+Wolves;Man United;1;0;78;7;True
+Wolves;Liverpool;1;1;78;6;True
+Wolves;Portsmouth;0;0;78;7;False
+Wolves;Arsenal;1;3;78;7;True
+Wolves;Leeds;1;4;78;5;False
+Wolves;Fulham;2;1;78;5;True
+Wolves;Leicester;0;0;78;4;False
+Wolves;Aston Villa;0;4;78;3;True
+Wolves;Liverpool;0;1;78;6;False
+Wolves;Chelsea;2;5;78;8;False
+Wolves;Southampton;1;4;78;6;True
+Wolves;Man City;3;3;78;7;False
+Wolves;Bolton;1;2;78;5;True
+Wolves;Middlesbrough;2;0;78;8;True
+Wolves;Birmingham;2;2;78;6;False
+Wolves;Everton;2;1;78;4;True
+Wolves;Newcastle;1;1;78;3;False
+Wolves;Tottenham;0;2;78;6;True
+Wolves;West Ham;0;2;78;4;True
+Wolves;Wigan;1;0;78;3;False
+Wolves;Man City;0;1;78;7;False

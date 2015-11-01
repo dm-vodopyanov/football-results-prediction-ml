@@ -1,0 +1,41 @@
+Blackburn;Wolves;5;1;67;7;True
+Blackburn;Bolton;2;2;67;51;False
+Blackburn;Man City;2;3;67;79;True
+Blackburn;Chelsea;2;2;67;87;False
+Blackburn;Liverpool;1;3;67;62;True
+Blackburn;Portsmouth;2;1;67;72;False
+Blackburn;Fulham;0;2;67;52;True
+Blackburn;Leeds;1;2;67;56;False
+Blackburn;Charlton;0;1;67;60;True
+Blackburn;Southampton;0;2;67;60;False
+Blackburn;Leicester;0;2;67;41;False
+Blackburn;Everton;2;1;67;47;True
+Blackburn;Man United;1;2;67;70;False
+Blackburn;Tottenham;1;0;67;64;True
+Blackburn;Birmingham;4;0;67;6;False
+Blackburn;Arsenal;0;1;67;7;False
+Blackburn;Aston Villa;0;2;67;3;True
+Blackburn;Middlesbrough;2;2;67;85;True
+Blackburn;Newcastle;1;0;67;39;False
+Blackburn;Wolves;2;2;67;7;False
+Blackburn;Bolton;3;4;67;51;True
+Blackburn;Man City;1;1;67;79;False
+Blackburn;Chelsea;2;3;67;87;True
+Blackburn;Middlesbrough;1;0;67;85;False
+Blackburn;Newcastle;1;1;67;39;True
+Blackburn;Charlton;2;3;67;60;False
+Blackburn;Southampton;1;1;67;60;True
+Blackburn;Arsenal;0;2;67;7;True
+Blackburn;Aston Villa;2;0;67;3;False
+Blackburn;Portsmouth;1;2;67;72;True
+Blackburn;Liverpool;0;4;67;62;False
+Blackburn;Leeds;1;2;67;56;True
+Blackburn;Fulham;4;3;67;52;False
+Blackburn;Leicester;1;0;67;41;True
+Blackburn;Everton;1;0;67;47;False
+Blackburn;Man United;1;0;67;70;True
+Blackburn;Tottenham;0;1;67;64;False
+Blackburn;Birmingham;1;1;67;6;True
+Blackburn;West Brom;1;1;67;44;True
+Blackburn;Southampton;2;3;67;60;False
+Blackburn;Arsenal;0;3;67;7;False

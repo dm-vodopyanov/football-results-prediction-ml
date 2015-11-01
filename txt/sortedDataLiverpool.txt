@@ -1,0 +1,41 @@
+Liverpool;Chelsea;1;2;62;8;True
+Liverpool;Aston Villa;0;0;62;3;False
+Liverpool;Tottenham;0;0;62;64;True
+Liverpool;Everton;3;0;62;4;False
+Liverpool;Blackburn;3;1;62;6;False
+Liverpool;Leicester;2;1;62;4;True
+Liverpool;Charlton;2;3;62;6;False
+Liverpool;Arsenal;1;2;62;7;True
+Liverpool;Portsmouth;0;1;62;72;False
+Liverpool;Leeds;3;1;62;5;True
+Liverpool;Fulham;2;1;62;5;False
+Liverpool;Man United;1;2;62;70;True
+Liverpool;Middlesbrough;0;0;62;85;False
+Liverpool;Birmingham;3;1;62;6;True
+Liverpool;Newcastle;1;1;62;39;False
+Liverpool;Southampton;1;2;62;60;True
+Liverpool;Bolton;3;1;62;5;True
+Liverpool;Man City;2;2;62;79;False
+Liverpool;Chelsea;1;0;62;8;False
+Liverpool;Aston Villa;1;0;62;3;True
+Liverpool;Tottenham;1;2;62;64;False
+Liverpool;Wolves;1;1;62;7;False
+Liverpool;Everton;0;0;62;4;True
+Liverpool;Bolton;2;2;62;5;False
+Liverpool;Man City;2;1;62;79;True
+Liverpool;Leeds;2;2;62;5;False
+Liverpool;Southampton;0;2;62;60;False
+Liverpool;Portsmouth;3;0;62;72;True
+Liverpool;Wolves;1;0;62;7;True
+Liverpool;Leicester;0;0;62;4;False
+Liverpool;Blackburn;4;0;62;6;True
+Liverpool;Arsenal;2;4;62;7;False
+Liverpool;Charlton;0;1;62;6;True
+Liverpool;Fulham;0;0;62;5;True
+Liverpool;Man United;1;0;62;70;False
+Liverpool;Middlesbrough;2;0;62;85;True
+Liverpool;Birmingham;3;0;62;6;False
+Liverpool;Newcastle;1;1;62;39;True
+Liverpool;Tottenham;1;1;62;64;False
+Liverpool;Man City;2;1;62;79;True
+Liverpool;Bolton;0;1;62;5;False

@@ -1,0 +1,41 @@
+Everton;Arsenal;1;2;47;7;False
+Everton;Fulham;3;1;47;52;True
+Everton;Charlton;2;2;47;6;False
+Everton;Liverpool;0;3;47;62;True
+Everton;Newcastle;2;2;47;39;True
+Everton;Middlesbrough;0;1;47;85;False
+Everton;Leeds;4;0;47;56;True
+Everton;Tottenham;0;3;47;64;False
+Everton;Southampton;0;0;47;60;True
+Everton;Aston Villa;0;0;47;3;False
+Everton;Chelsea;0;1;47;8;True
+Everton;Blackburn;1;2;47;6;False
+Everton;Wolves;2;0;47;7;True
+Everton;Bolton;0;2;47;5;False
+Everton;Man City;0;0;47;79;True
+Everton;Portsmouth;2;1;47;72;False
+Everton;Leicester;3;2;47;41;True
+Everton;Man United;2;3;47;70;False
+Everton;Birmingham;1;0;47;6;True
+Everton;Arsenal;1;1;47;7;True
+Everton;Fulham;1;2;47;52;False
+Everton;Charlton;0;1;47;6;True
+Everton;Liverpool;0;0;47;62;False
+Everton;Man United;3;4;47;70;True
+Everton;Birmingham;0;3;47;6;False
+Everton;Southampton;3;3;47;60;False
+Everton;Aston Villa;2;0;47;3;True
+Everton;Portsmouth;1;0;47;72;True
+Everton;Leicester;1;1;47;41;False
+Everton;Middlesbrough;1;1;47;85;True
+Everton;Newcastle;2;4;47;39;False
+Everton;Tottenham;3;1;47;64;True
+Everton;Leeds;1;1;47;56;False
+Everton;Chelsea;0;0;47;8;False
+Everton;Blackburn;0;1;47;6;True
+Everton;Wolves;1;2;47;7;False
+Everton;Bolton;1;2;47;5;True
+Everton;Man City;1;5;47;79;False
+Everton;Arsenal;1;4;47;7;True
+Everton;Crystal Palace;3;1;47;4;False
+Everton;West Brom;2;1;47;44;True

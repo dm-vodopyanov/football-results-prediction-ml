@@ -1,0 +1,38 @@
+Leeds;Newcastle;2;2;56;39;True
+Leeds;Tottenham;1;2;56;64;False
+Leeds;Southampton;0;0;56;60;True
+Leeds;Middlesbrough;3;2;56;85;False
+Leeds;Leicester;0;4;56;41;False
+Leeds;Birmingham;0;2;56;6;True
+Leeds;Everton;0;4;56;4;False
+Leeds;Blackburn;2;1;56;6;True
+Leeds;Man United;0;1;56;70;True
+Leeds;Liverpool;1;3;56;62;False
+Leeds;Arsenal;1;4;56;7;True
+Leeds;Portsmouth;1;6;56;72;False
+Leeds;Bolton;0;2;56;5;True
+Leeds;Charlton;1;0;56;6;False
+Leeds;Chelsea;1;1;56;8;True
+Leeds;Fulham;3;2;56;5;True
+Leeds;Man City;1;1;56;79;False
+Leeds;Aston Villa;0;0;56;3;True
+Leeds;Wolves;1;3;56;7;False
+Leeds;Newcastle;0;1;56;39;False
+Leeds;Tottenham;0;1;56;64;True
+Leeds;Southampton;1;2;56;60;False
+Leeds;Middlesbrough;0;3;56;85;True
+Leeds;Aston Villa;0;2;56;3;False
+Leeds;Wolves;4;1;56;7;True
+Leeds;Man United;1;1;56;70;False
+Leeds;Liverpool;2;2;56;62;True
+Leeds;Fulham;0;2;56;5;False
+Leeds;Man City;2;1;56;79;True
+Leeds;Birmingham;1;4;56;6;False
+Leeds;Leicester;3;2;56;41;True
+Leeds;Blackburn;2;1;56;6;False
+Leeds;Everton;1;1;56;4;True
+Leeds;Arsenal;0;5;56;7;False
+Leeds;Portsmouth;1;2;56;72;True
+Leeds;Bolton;1;4;56;5;False
+Leeds;Charlton;3;3;56;6;True
+Leeds;Chelsea;0;1;56;8;False

@@ -1,0 +1,41 @@
+Charlton;Man City;0;3;60;79;True
+Charlton;Wolves;4;0;60;7;False
+Charlton;Everton;2;2;60;47;True
+Charlton;Bolton;0;0;60;5;False
+Charlton;Man United;0;2;60;70;True
+Charlton;Aston Villa;1;2;60;3;False
+Charlton;Liverpool;3;2;60;62;True
+Charlton;Portsmouth;2;1;60;72;False
+Charlton;Blackburn;1;0;60;6;False
+Charlton;Arsenal;1;1;60;7;True
+Charlton;Birmingham;2;1;60;6;False
+Charlton;Fulham;3;1;60;52;True
+Charlton;Leicester;1;1;60;41;False
+Charlton;Leeds;0;1;60;56;True
+Charlton;Southampton;2;3;60;60;False
+Charlton;Middlesbrough;0;0;60;85;False
+Charlton;Newcastle;0;0;60;39;True
+Charlton;Chelsea;4;2;60;87;True
+Charlton;Tottenham;1;0;60;64;False
+Charlton;Man City;1;1;60;79;False
+Charlton;Wolves;2;0;60;7;True
+Charlton;Everton;1;0;60;47;False
+Charlton;Bolton;1;2;60;5;True
+Charlton;Chelsea;0;1;60;87;False
+Charlton;Tottenham;2;4;60;64;True
+Charlton;Blackburn;3;2;60;6;True
+Charlton;Arsenal;1;2;60;7;False
+Charlton;Middlesbrough;1;0;60;85;True
+Charlton;Newcastle;1;3;60;39;False
+Charlton;Aston Villa;1;2;60;3;True
+Charlton;Portsmouth;1;1;60;72;True
+Charlton;Liverpool;1;0;60;62;False
+Charlton;Birmingham;1;1;60;6;True
+Charlton;Man United;0;2;60;70;False
+Charlton;Fulham;0;2;60;52;False
+Charlton;Leicester;2;2;60;41;True
+Charlton;Leeds;3;3;60;56;False
+Charlton;Southampton;2;1;60;60;True
+Charlton;Bolton;1;4;60;5;False
+Charlton;Portsmouth;2;1;60;72;True
+Charlton;Aston Villa;3;0;60;3;True

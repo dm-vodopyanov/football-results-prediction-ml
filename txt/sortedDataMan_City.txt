@@ -1,0 +1,41 @@
+Man City;Charlton;3;0;79;6;False
+Man City;Portsmouth;1;1;79;72;True
+Man City;Blackburn;3;2;79;6;False
+Man City;Arsenal;1;2;79;7;True
+Man City;Aston Villa;4;1;79;3;True
+Man City;Fulham;2;2;79;5;False
+Man City;Tottenham;0;0;79;64;True
+Man City;Wolves;0;1;79;7;False
+Man City;Bolton;6;2;79;5;True
+Man City;Chelsea;0;1;79;8;False
+Man City;Southampton;2;0;79;60;False
+Man City;Leicester;0;3;79;4;True
+Man City;Newcastle;0;3;79;39;False
+Man City;Middlesbrough;0;1;79;85;True
+Man City;Everton;0;0;79;4;False
+Man City;Man United;1;3;79;70;False
+Man City;Leeds;1;1;79;5;True
+Man City;Birmingham;1;2;79;6;False
+Man City;Liverpool;2;2;79;6;True
+Man City;Charlton;1;1;79;6;True
+Man City;Portsmouth;2;4;79;72;False
+Man City;Blackburn;1;1;79;6;True
+Man City;Arsenal;1;2;79;7;False
+Man City;Birmingham;0;0;79;6;True
+Man City;Liverpool;1;2;79;6;False
+Man City;Bolton;3;1;79;5;False
+Man City;Chelsea;0;1;79;8;True
+Man City;Man United;4;1;79;70;True
+Man City;Leeds;1;2;79;5;False
+Man City;Fulham;0;0;79;5;True
+Man City;Aston Villa;1;1;79;3;False
+Man City;Wolves;3;3;79;7;True
+Man City;Tottenham;1;1;79;64;False
+Man City;Southampton;1;3;79;60;True
+Man City;Leicester;1;1;79;4;False
+Man City;Newcastle;1;0;79;39;True
+Man City;Middlesbrough;1;2;79;85;False
+Man City;Everton;5;1;79;4;True
+Man City;Fulham;1;1;79;5;True
+Man City;Liverpool;1;2;79;6;False
+Man City;Birmingham;0;1;79;6;False

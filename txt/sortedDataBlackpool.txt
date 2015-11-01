@@ -1,0 +1,38 @@
+Blackpool;Wigan;4;0;26;39;False
+Blackpool;Arsenal;0;6;26;7;False
+Blackpool;Fulham;2;2;26;52;True
+Blackpool;Newcastle;2;0;26;39;False
+Blackpool;Chelsea;0;4;26;87;False
+Blackpool;Blackburn;1;2;26;6;True
+Blackpool;Liverpool;2;1;26;62;False
+Blackpool;Man City;2;3;26;79;True
+Blackpool;Birmingham;0;2;26;6;False
+Blackpool;West Brom;2;1;26;44;True
+Blackpool;Everton;2;2;26;47;True
+Blackpool;Aston Villa;2;3;26;3;False
+Blackpool;West Ham;0;0;26;47;False
+Blackpool;Wolves;2;1;26;7;True
+Blackpool;Bolton;2;2;26;51;False
+Blackpool;Stoke;1;0;26;54;False
+Blackpool;Sunderland;2;0;26;38;False
+Blackpool;Man City;0;1;26;79;False
+Blackpool;Birmingham;1;2;26;6;True
+Blackpool;Liverpool;2;1;26;62;True
+Blackpool;West Brom;2;3;26;44;False
+Blackpool;Sunderland;1;2;26;38;True
+Blackpool;Man United;2;3;26;70;True
+Blackpool;West Ham;1;3;26;47;True
+Blackpool;Everton;3;5;26;47;False
+Blackpool;Aston Villa;1;1;26;3;True
+Blackpool;Tottenham;3;1;26;64;True
+Blackpool;Wolves;0;4;26;7;False
+Blackpool;Chelsea;1;3;26;87;True
+Blackpool;Blackburn;2;2;26;6;False
+Blackpool;Fulham;0;3;26;52;False
+Blackpool;Arsenal;1;3;26;7;True
+Blackpool;Wigan;1;3;26;39;True
+Blackpool;Newcastle;1;1;26;39;True
+Blackpool;Stoke;0;0;26;54;True
+Blackpool;Tottenham;1;1;26;64;False
+Blackpool;Bolton;4;3;26;51;True
+Blackpool;Man United;2;4;26;70;False

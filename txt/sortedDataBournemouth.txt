@@ -1,0 +1,8 @@
+Bournemouth;Aston Villa;0;1;80;3;True
+Bournemouth;Liverpool;0;1;80;62;False
+Bournemouth;West Ham;4;3;80;47;False
+Bournemouth;Leicester;1;1;80;41;True
+Bournemouth;Norwich;1;3;80;86;False
+Bournemouth;Sunderland;2;0;80;38;True
+Bournemouth;Stoke;1;2;80;54;False
+Bournemouth;Watford;1;1;80;69;True
