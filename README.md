@@ -6,7 +6,7 @@
 ### Overview
 In this mini-project we try to use some machine learning methods to predict outcome of football matches, such as:
 
-  - Neural network
+  - Naive Bayes
   - Random Forest
   - etc.
 
