@@ -3,7 +3,7 @@ import os
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.ensemble import RandomForestClassifier
 
-#preparing data
+# preparing data
 
 def getFilesData(start_path):
 	
@@ -38,7 +38,7 @@ def getBatch(listParams, start, finish, X_batch, Y_batch):
 # method actions
 
 def naiveBayes(X_data_train, Y_data_train, X_data_test):
-	#assigning predictor and target variables
+	# assigning predictor and target variables
 	X = np.array(X_list)
 	Y = np.array(Y_list)
 
@@ -48,7 +48,7 @@ def naiveBayes(X_data_train, Y_data_train, X_data_test):
 	return predicted
 
 def randomForest(X_data_train, Y_data_train, X_data_test):
-	#assigning predictor and target variables
+	# assigning predictor and target variables
 	X = np.array(X_list)
 	Y = np.array(Y_list)
 
@@ -66,8 +66,7 @@ def methodResults(pred, test_batch_Y):
 	percent = (float(rightCount) / len(test_batch_Y)) * 100
 	print "  Percent: ", percent
 
-if __name__ == '__main__':	
-	#start_path = "D:\\MachineLearning\\football-results-prediction-ml\\txt"
+if __name__ == '__main__':
 	start_path = "..\\txt"
 
 	teams_files = getFilesData(start_path)
@@ -79,11 +78,11 @@ if __name__ == '__main__':
 
 	for team_file in teams_files:
 		team_games = team_file.readlines()
-
 		#prepare train_batch
 		getBatch(team_games, 0, len(team_games) - 3, X_list, Y_list)
 		#prepare test_batch
 		getBatch(team_games, len(team_games) - 3, len(team_games), test_batch_X, test_batch_Y)
+
 	print "--------------------------------------"
 	print "Predicting outcome of football matches"
 	print "--------------------------------------"
