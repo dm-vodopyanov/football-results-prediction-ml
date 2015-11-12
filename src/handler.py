@@ -64,7 +64,7 @@ def methodResults(pred, test_batch_Y):
 			rightCount = rightCount + 1
 
 	percent = (float(rightCount) / len(test_batch_Y)) * 100
-	print "percent ", percent
+	print "  Percent: ", percent
 
 if __name__ == '__main__':	
 	#start_path = "D:\\MachineLearning\\football-results-prediction-ml\\txt"
@@ -84,14 +84,17 @@ if __name__ == '__main__':
 		getBatch(team_games, 0, len(team_games) - 3, X_list, Y_list)
 		#prepare test_batch
 		getBatch(team_games, len(team_games) - 3, len(team_games), test_batch_X, test_batch_Y)
-
-	print "train_games_count ", len(X_list)
-	print "test_games_count ", len(test_batch_X)
+	print "--------------------------------------"
+	print "Predicting outcome of football matches"
+	print "--------------------------------------"
+	print "Number of games from datasets: ", len(X_list)
+	print "Number of test games:          ", len(test_batch_X)
+	print ""
 
 	pred = naiveBayes(X_list, Y_list, test_batch_X)
-	print "naive bayes results:"
+	print "Results of Naive Bayes:"
 	methodResults(pred, test_batch_Y)
 
 	pred = randomForest(X_list, Y_list, test_batch_X)
-	print "random forest results:"
+	print "Results of Random Forest:"
 	methodResults(pred, test_batch_Y)
