@@ -26,8 +26,10 @@ def getBatch(listParams, start, finish, X_batch, Y_batch):
 		else:
 			game_y = 1
 
-		game_x.append(int(params[4]))
-		game_x.append(int(params[5]))
+		score_1 = int(params[4])
+		score_2 = int(params[5])
+		game_x.append(max(score_1, score_2))
+		game_x.append(abs(score_1 - score_2))
 		if params[6] == "True\n":
 			game_x.append(1)
 		else:
@@ -68,6 +70,7 @@ def methodResults(pred, test_batch_Y):
 
 if __name__ == '__main__':
 	start_path = "..\\txt"
+	start_path = "D:\\MachineLearning\\football-results-prediction-ml\\txt"
 
 	teams_files = getFilesData(start_path)
 
@@ -83,17 +86,31 @@ if __name__ == '__main__':
 		#prepare test_batch
 		getBatch(team_games, len(team_games) - 3, len(team_games), test_batch_X, test_batch_Y)
 
-	print "--------------------------------------"
-	print "Predicting outcome of football matches"
-	print "--------------------------------------"
-	print "Number of games from datasets: ", len(X_list)
-	print "Number of test games:          ", len(test_batch_X)
-	print ""
+	X_set = []
+	y_delete_indexes = [] 
+	for i in range(0, len(X_list), 1):
+		elem = X_list[i];
+		if elem not in X_set:
+			X_set.append(elem)
+		else:
+			y_delete_indexes.append(i)
+	
+	Y_set = []
+	for i in range(0, len(Y_list), 1):
+		if i not in y_delete_indexes:
+			Y_set.append(Y_list[i])
 
-	pred = naiveBayes(X_list, Y_list, test_batch_X)
+	pred = naiveBayes(X_set, Y_set, test_batch_X)
 	print "Results of Naive Bayes:"
 	methodResults(pred, test_batch_Y)
 
-	pred = randomForest(X_list, Y_list, test_batch_X)
+	pred = randomForest(X_set, Y_set, test_batch_X)
 	print "Results of Random Forest:"
 	methodResults(pred, test_batch_Y)
+
+	print "--------------------------------------"
+	print "Predicting outcome of football matches"
+	print "--------------------------------------"
+	print "Number of games from datasets: ", len(X_set)
+	print "Number of test games:          ", len(test_batch_X)
+	print ""
