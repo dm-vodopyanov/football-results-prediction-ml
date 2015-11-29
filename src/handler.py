@@ -2,6 +2,7 @@ import numpy as np
 import os
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.ensemble import RandomForestClassifier
+from sklearn import svm
 
 # preparing data
 
@@ -49,13 +50,23 @@ def naiveBayes(X_data_train, Y_data_train, X_data_test):
 	predicted = model.predict(X_data_test)
 	return predicted
 
+def svmachine(X_data_train, Y_data_train, X_data_test):
+	# assigning predictor and target variables
+	X = np.array(X_list)
+	Y = np.array(Y_list)
+
+	clf = svm.SVC()
+	clf.fit(X, Y)
+	predicted = clf.predict(X_data_test)
+	return predicted
+
 def randomForest(X_data_train, Y_data_train, X_data_test):
 	# assigning predictor and target variables
 	X = np.array(X_list)
 	Y = np.array(Y_list)
 
 	forest = RandomForestClassifier(100)
-	forest = forest.fit(X, Y)
+	forest.fit(X, Y)
 	predicted = forest.predict(X_data_test)
 	return predicted
 
@@ -106,6 +117,10 @@ if __name__ == '__main__':
 
 	pred = randomForest(X_set, Y_set, test_batch_X)
 	print "Results of Random Forest:"
+	methodResults(pred, test_batch_Y)
+
+	pred = svmachine(X_set, Y_set, test_batch_X)
+	print "Results of Support Vectors Machine:"
 	methodResults(pred, test_batch_Y)
 
 	print "--------------------------------------"
