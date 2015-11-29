@@ -3,6 +3,7 @@ import os
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import svm
+from sklearn import metrics
 
 # preparing data
 
@@ -20,60 +21,89 @@ def getBatch(listParams, start, finish, X_batch, Y_batch):
 		game_x = []
 		game_y = -1
 		params = listParams[i].split(";")
-		if params[2] > params[3]:
+
+		score_1 = int(params[4])
+		score_2 = int(params[5])
+		goals_1 = int(params[2])
+		goals_2 = int(params[3])
+
+		minScore = min(score_1, score_2)
+		maxScore = max(score_1, score_2)
+		selfField = False
+		if params[6] == "True\n":
+			selfField = True
+		else:
+			selfField = False
+
+		game_x.append(minScore)
+		game_x.append(maxScore)
+		if score_1 != minScore:
+			tmp = goals_1
+			goals_1 = goals_2
+			goals_2 = tmp
+			selfField = not selfField
+		
+		if selfField:
+			game_x.append(1)
+		else:
+			game_x.append(0)
+
+		if goals_1 > goals_2:
 			game_y = 2
-		elif params[2] < params[3]:
+		elif goals_1 < goals_2:
 			game_y = 0
 		else:
 			game_y = 1
 
-		score_1 = int(params[4])
-		score_2 = int(params[5])
-		game_x.append(max(score_1, score_2))
-		game_x.append(abs(score_1 - score_2))
-		if params[6] == "True\n":
-			game_x.append(1)
-		else:
-			game_x.append(0)
 		X_batch.append(game_x)
 		Y_batch.append(game_y)
 
+def selectNonRepeatingData(X_list, Y_list, X_set, Y_set):
+	y_delete_indexes = [] 
+	for i in range(0, len(X_list), 1):
+		elem = X_list[i];
+		if elem not in X_set:
+			X_set.append(elem)
+		else:
+			y_delete_indexes.append(i)
+	
+	for i in range(0, len(Y_list), 1):
+		if i not in y_delete_indexes:
+			Y_set.append(Y_list[i])
+
 # method actions
 
-def naiveBayes(X_data_train, Y_data_train, X_data_test):
-	# assigning predictor and target variables
-	X = np.array(X_list)
-	Y = np.array(Y_list)
+def naiveBayes(train_X, train_Y, test_X):
+	X = train_X[:]
+	Y = train_Y[:]
+	X_test = test_X[:]
+	model_NB = MultinomialNB(alpha=0.0)
+	model_NB.fit(X, Y)
+	predictedNB = model_NB.predict(X_test)
+	return predictedNB
 
-	model = MultinomialNB()
-	model.fit(X, Y)
-	predicted = model.predict(X_data_test)
-	return predicted
-
-def svmachine(X_data_train, Y_data_train, X_data_test):
-	# assigning predictor and target variables
-	X = np.array(X_list)
-	Y = np.array(Y_list)
-
+def svmachine(train_X, train_Y, test_X):
+	X = train_X[:]
+	Y = train_Y[:]
+	X_test = test_X[:]
 	clf = svm.SVC()
 	clf.fit(X, Y)
-	predicted = clf.predict(X_data_test)
-	return predicted
+	predictedSVM = clf.predict(X_test)
+	return predictedSVM
 
-def randomForest(X_data_train, Y_data_train, X_data_test):
-	# assigning predictor and target variables
-	X = np.array(X_list)
-	Y = np.array(Y_list)
-
-	forest = RandomForestClassifier(100)
+def randomForest(train_X, train_Y, test_X):
+	X = train_X[:]
+	Y = train_Y[:]
+	X_test = test_X[:]
+	forest = RandomForestClassifier(10)
 	forest.fit(X, Y)
-	predicted = forest.predict(X_data_test)
-	return predicted
+	predictedRF = forest.predict(X_test)
+	return predictedRF
 
-def methodResults(pred, test_batch_Y):
+def methodResults(predictedY, correctY):
 	rightCount = 0
-	for i in range (0, len(test_batch_Y), 1):
-		if pred[i] == test_batch_Y[i]:
+	for i in range (0, len(correctY), 1):
+		if predictedY[i] == correctY[i]:
 			rightCount = rightCount + 1
 
 	percent = (float(rightCount) / len(test_batch_Y)) * 100
@@ -90,42 +120,46 @@ if __name__ == '__main__':
 	test_batch_X = []
 	test_batch_Y = []
 
+	allGamesCount = 0
 	for team_file in teams_files:
 		team_games = team_file.readlines()
 		#prepare train_batch
-		getBatch(team_games, 0, len(team_games) - 3, X_list, Y_list)
+		getBatch(team_games, 0, len(team_games) - 4, X_list, Y_list)
 		#prepare test_batch
-		getBatch(team_games, len(team_games) - 3, len(team_games), test_batch_X, test_batch_Y)
+		getBatch(team_games, len(team_games) - 4, len(team_games), test_batch_X, test_batch_Y)
+		allGamesCount = allGamesCount + len(team_games)
 
-	X_set = []
-	y_delete_indexes = [] 
-	for i in range(0, len(X_list), 1):
-		elem = X_list[i];
-		if elem not in X_set:
-			X_set.append(elem)
-		else:
-			y_delete_indexes.append(i)
-	
-	Y_set = []
-	for i in range(0, len(Y_list), 1):
-		if i not in y_delete_indexes:
-			Y_set.append(Y_list[i])
+	X_train_set = []
+	Y_train_set = []
+	selectNonRepeatingData(X_list, Y_list, X_train_set, Y_train_set)
+	X_test_set = []
+	Y_test_set = []
+	selectNonRepeatingData(test_batch_X, test_batch_Y, X_test_set, Y_test_set)
 
-	pred = naiveBayes(X_set, Y_set, test_batch_X)
-	print "Results of Naive Bayes:"
-	methodResults(pred, test_batch_Y)
-
-	pred = randomForest(X_set, Y_set, test_batch_X)
-	print "Results of Random Forest:"
-	methodResults(pred, test_batch_Y)
-
-	pred = svmachine(X_set, Y_set, test_batch_X)
-	print "Results of Support Vectors Machine:"
-	methodResults(pred, test_batch_Y)
+	#creating np data
+	X_train_np = np.array(X_train_set)
+	Y_train_np = np.array(Y_train_set)
+	X_test_np = np.array(X_test_set)
+	Y_test_np = np.array(Y_test_set)
 
 	print "--------------------------------------"
 	print "Predicting outcome of football matches"
 	print "--------------------------------------"
-	print "Number of games from datasets: ", len(X_set)
-	print "Number of test games:          ", len(test_batch_X)
+	print "Number of games from datasets: ", len(X_train_set)
+	print "Number of test games:          ", len(X_test_set)
 	print ""
+
+	predNB = naiveBayes(X_train_np, Y_train_np, X_test_np)
+	print "Results of Naive Bayes:"
+	methodResults(predNB, Y_test_np)
+	#print(metrics.classification_report(Y_test_np, predNB))
+
+	predRF = randomForest(X_train_np, Y_train_np, X_test_np)
+	print "Results of Random Forest:"
+	methodResults(predRF, Y_test_np)
+	#print(metrics.classification_report(Y_test_np, predNB))
+
+	predSVM = svmachine(X_train_np, Y_train_np, X_test_np)
+	print "Results of Support Vectors Machine:"
+	methodResults(predSVM, Y_test_np)
+	#print(metrics.classification_report(Y_test_np, predNB))
