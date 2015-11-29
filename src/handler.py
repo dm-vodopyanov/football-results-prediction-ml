@@ -91,11 +91,11 @@ def svmachine(train_X, train_Y, test_X):
 	predictedSVM = clf.predict(X_test)
 	return predictedSVM
 
-def randomForest(train_X, train_Y, test_X):
+def randomForest(train_X, train_Y, test_X, treeCount):
 	X = train_X[:]
 	Y = train_Y[:]
 	X_test = test_X[:]
-	forest = RandomForestClassifier(10)
+	forest = RandomForestClassifier(treeCount)
 	forest.fit(X, Y)
 	predictedRF = forest.predict(X_test)
 	return predictedRF
@@ -106,7 +106,7 @@ def methodResults(predictedY, correctY):
 		if predictedY[i] == correctY[i]:
 			rightCount = rightCount + 1
 
-	percent = (float(rightCount) / len(test_batch_Y)) * 100
+	percent = (float(rightCount) / len(correctY)) * 100
 	print "  Percent: ", percent
 
 if __name__ == '__main__':
@@ -154,7 +154,9 @@ if __name__ == '__main__':
 	methodResults(predNB, Y_test_np)
 	#print(metrics.classification_report(Y_test_np, predNB))
 
-	predRF = randomForest(X_train_np, Y_train_np, X_test_np)
+	treesCount = 80
+
+	predRF = randomForest(X_train_np, Y_train_np, X_test_np, treesCount)
 	print "Results of Random Forest:"
 	methodResults(predRF, Y_test_np)
 	#print(metrics.classification_report(Y_test_np, predNB))
@@ -163,3 +165,15 @@ if __name__ == '__main__':
 	print "Results of Support Vectors Machine:"
 	methodResults(predSVM, Y_test_np)
 	#print(metrics.classification_report(Y_test_np, predNB))
+
+	needToCalcRFParametr = False
+	if needToCalcRFParametr:
+		table = []
+		for i in range (1, 100, 1):
+			pred = randomForest(X_train_np, Y_train_np, X_test_np, i)
+			rightCount = 0
+			for j in range (0, len(Y_test_np), 1):
+				if pred[j] == Y_test_np[j]:
+					rightCount = rightCount + 1
+			percent = (float(rightCount) / len(Y_test_np)) * 100
+			table.append(str(i) + " " + str(percent))
