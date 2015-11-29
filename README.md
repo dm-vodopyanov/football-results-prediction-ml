@@ -8,7 +8,7 @@ In this mini-project we try to use some machine learning methods to predict outc
 
   - Naive Bayes
   - Random Forest
-  - etc.
+  - Support Vectors Machine
 
 The dataset that used in our project is [here](http://www.football-data.co.uk/englandm.php).
 
