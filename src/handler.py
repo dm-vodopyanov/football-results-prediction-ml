@@ -1,6 +1,8 @@
 import numpy as np
 import os
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import BernoulliNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import svm
 from sklearn import metrics
@@ -77,9 +79,12 @@ def naiveBayes(train_X, train_Y, test_X):
 	X = train_X[:]
 	Y = train_Y[:]
 	X_test = test_X[:]
-	model_NB = MultinomialNB(alpha=0.0)
+	model_NB = MultinomialNB()
 	model_NB.fit(X, Y)
 	predictedNB = model_NB.predict(X_test)
+	print "score NB begin"
+	print model_NB.score(X, Y)
+	print "end"
 	return predictedNB
 
 def svmachine(train_X, train_Y, test_X):
@@ -88,6 +93,9 @@ def svmachine(train_X, train_Y, test_X):
 	X_test = test_X[:]
 	clf = svm.SVC()
 	clf.fit(X, Y)
+	print "score SVM begin"
+	print clf.score(X, Y)
+	print "end"
 	predictedSVM = clf.predict(X_test)
 	return predictedSVM
 
@@ -97,6 +105,9 @@ def randomForest(train_X, train_Y, test_X, treeCount):
 	X_test = test_X[:]
 	forest = RandomForestClassifier(treeCount)
 	forest.fit(X, Y)
+	#print "score RF begin"
+	#print forest.score(X, Y)
+	#print "end"
 	predictedRF = forest.predict(X_test)
 	return predictedRF
 
@@ -111,7 +122,7 @@ def methodResults(predictedY, correctY):
 
 if __name__ == '__main__':
 	start_path = "..\\txt"
-	start_path = "D:\\MachineLearning\\football-results-prediction-ml\\txt"
+	#start_path = "D:\\MachineLearning\\football-results-prediction-ml\\txt"
 
 	teams_files = getFilesData(start_path)
 
@@ -168,6 +179,7 @@ if __name__ == '__main__':
 
 	needToCalcRFParametr = False
 	if needToCalcRFParametr:
+		minErr = 1.0
 		table = []
 		for i in range (1, 100, 1):
 			pred = randomForest(X_train_np, Y_train_np, X_test_np, i)
@@ -176,4 +188,15 @@ if __name__ == '__main__':
 				if pred[j] == Y_test_np[j]:
 					rightCount = rightCount + 1
 			percent = (float(rightCount) / len(Y_test_np)) * 100
-			table.append(str(i) + " " + str(percent))
+			error = 1 - float(percent)/100
+			if error < minErr:
+				minErr = error
+			table.append(str(error) + "\n")
+
+		RFFilePath = "..\\resultsByRandomForestWithVariousParametrs.txt"
+		fileRF = open(RFFilePath, 'w+')
+		fileRF.writelines(table)
+		print minErr
+
+
+
